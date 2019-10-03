@@ -1,6 +1,8 @@
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 14px;
 }
 
 nav {
@@ -10,28 +12,67 @@ nav {
   width: 100%;
 }
 
+h1 {
+  font-size: 4em;
+  text-align: left;
+  padding-top: 20px;
+}
+
+figcaption {
+  font-size: 1em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding: 5px;
+  line-height: 1.2em;
+}
+
+.author {
+  font-size: 1.2em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+.story-text{
+  line-height: 1.7;
+}
 .logo {
-  margin: 20px;
+  background-image: #fff url(images/bloc-logo.png) no-repeat top auto;
+  padding: 20px;
   width: 100px;
 }
+
 
 .large-pic {
   width: 100%;
 }
 
-.medium-pic {
+
+.header {
+  background-image: #fff url(images/instagram-pic.jpg) no-repeat center auto;
+  margin: 20px;
+  padding: 10px;
   width: 70%;
 }
 
-.left, .right {
+ .left, .right {
   float: left;
   width: 50%;
 }
 
+
 .right {
   float: right;
+  text-decoration: none;
 }
 
+/* nav list */
 ul {
   list-style-type: none;
   float: right;
@@ -42,11 +83,29 @@ li {
   padding: 30px;
 }
 
+a {
+color: #ffffff;
+text-decoration: none;
+font-weight: bold;
+ }
+
+ a:visited{
+   color: #8B0000;
+ }
+
+a:hover{
+  color: purple;
+}
+
+a:active{
+  color: blue;
+}
+
 article {
   padding-top: 100px;
 }
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 75%;
 }
