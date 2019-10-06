@@ -43,7 +43,7 @@ p {
   line-height: 1.7;
 }
 .logo {
-  background-image: #fff url(images/bloc-logo.png) no-repeat top auto;
+  background: url(../images/bloc-logo.png) no-repeat top auto;
   padding: 20px;
   width: 100px;
 }
@@ -55,7 +55,7 @@ p {
 
 
 .header {
-  background-image: #fff url(images/instagram-pic.jpg) no-repeat center auto;
+  background: url(../images/instagram-pic.jpg) no-repeat center auto;
   margin: 20px;
   padding: 10px;
   width: 70%;
